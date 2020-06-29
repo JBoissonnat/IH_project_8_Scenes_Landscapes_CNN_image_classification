@@ -4,6 +4,8 @@
 
 ### Project description
 
+In this project the idea was to build a model able to classify images, and to be more precise, the images themselves and not the pixels, or specific features in the images.
+
 Steps of the project :
 
 
