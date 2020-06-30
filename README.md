@@ -22,8 +22,19 @@ Also, regularly the predictions of the models (probabilities of classes for imag
 
 
 ### Libraries
-
-
+os
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+sns.set()
+tensorflow
+keras
+load_img from keras.preprocessing.image
+img_to_array from keras.preprocessing.image
+train_test_split from sklearn.model_selection
+ImageDataGenerator from keras.preprocessing.image
+confusion_matrix from sklearn.metrics
 
 ### Code details
 
