@@ -11,7 +11,15 @@ Steps of the project :
 - Train images/labels are then separated in train images/labels and validation images labels 
       => we end up with test, train and validation datasets
 - Number of images per datasets and classes are then shown on an horizontal barplot
-- 
+- Different models were tested, the first model was much faster than the other ones, but with only around 50 % of accuracy. The other tests were in the range 50% to 75% of accuracy
+The fourth version of the model was the best, but very close to the third
+      - The performance of the models are compared with the evolution of their accuracies at different epoch
+- Transformed images are created to train the fourth model
+- Fourth model is runed with the new images to see if there is an improvments in the results
+- Confusion matrix is built for the fourth model (the most efficient), to see numerically the confusion between classes of images
+
+Also, regularly the predictions of the models (probabilities of classes for images) were checked randomly
+
 
 ### Libraries
 
@@ -22,7 +30,7 @@ Steps of the project :
 
 ### Links
 
-Source page : https://www.kaggle.com/uciml/forest-cover-type-dataset
+Source page : https://www.kaggle.com/puneet6060/intel-image-classification
 
-Presentation : https://docs.google.com/presentation/d/1OLZmi-6AsAbGr5WkZ7AZUpQN5x31vqlp7dxy-bCizS4/edit?usp=sharing
+Presentation : https://docs.google.com/presentation/d/1fudDVPBgNvsxvW_Dswt_IH-L0lTufoGXpRqsyF5vOWQ/edit?usp=sharing
 
